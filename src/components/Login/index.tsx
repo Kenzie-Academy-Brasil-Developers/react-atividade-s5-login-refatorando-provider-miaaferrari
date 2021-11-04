@@ -45,14 +45,14 @@ export const Login = () => {
                     name='email'
                     placeholder='E-mail'
                 />
-                     {errors?.email && <span>errors.email.message</span>}
+                     {errors?.email && <span>{errors.email.message}</span>}
                 <input 
                     type='password'
                     {...register('password')}
                     name='password'
                     placeholder='Password'
                 />
-                     {errors?.password && <span>errors.password.message</span>}
+                     {errors?.password && <span>{errors.password.message}</span>}
                 <button
                     type='submit'>Login</button>
             </form>

@@ -4,7 +4,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 330px;
     width: 250px;
     border-radius: 8px;
     box-shadow: 1px 5px 68px 15px rgba(199,135,135,0.75);
@@ -16,7 +15,12 @@ export const Container = styled.div`
         span {
             font-size: 12px;
             font-weight: bold;
-            color: red;
+            color: blueviolet;
+            width: 200px;
+            bottom: 190px;
+            background: beige;
+            border-radius: 8px;
+            padding: 5px;
         }
     }
 
